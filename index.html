@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Volt Guild — Regex Forge</title><link rel="stylesheet" href="style.css"></head><body>
+<header><h1>⌁ volt guild — regex forge</h1><nav class="lang"><button data-lang="en" class="on">EN</button><button data-lang="de">DE</button></nav></header>
+<main><aside class="panel">
+<section><h2 data-i="pattern">Pattern</h2>
+<label><input type="text" id="regex" value="\d{4}-\d{2}-\d{2}" spellcheck="false" placeholder="regex…"></label>
+<label class="check"><input type="checkbox" id="g" checked> <span data-i="global">global</span></label>
+<label class="check"><input type="checkbox" id="i"> <span data-i="ignore">ignore case</span></label>
+<label class="check"><input type="checkbox" id="m"> <span data-i="multiline">multiline</span></label>
+<div class="btncol"><button id="test" class="primary" data-i="test">▶ Test</button><button id="explain" data-i="explain">✦ Explain</button></div></section>
+<section><h2 data-i="presets">Presets</h2><div class="btncol" id="presets"></div></section>
+<section class="stats" id="stats">—</section>
+</aside><div class="stage"><div class="io"><textarea id="input" rows="10" placeholder="paste text here…">contact me at dev@example.com or visit https://example.com/page?q=1
+color: #ff6ec7 and #4dd8ff
+meeting on 2026-11-21 at 10:00
+server 192.168.1.1 port 8080</textarea>
+<div class="out" id="out"></div></div></div></main>
+<script src="app.js"></script></body></html>
